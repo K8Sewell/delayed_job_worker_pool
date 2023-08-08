@@ -27,8 +27,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.7'
 
-  spec.add_dependency 'delayed_job', ['>= 3.0', '< 4.2']
-
   spec.add_development_dependency 'appraisal'
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rails', '>= 6.0', '< 8'
